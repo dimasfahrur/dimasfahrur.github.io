@@ -1,2 +1,2 @@
-# dimasfahrur.github.io
+# Dicoding Submission
  Personal webiste using HTML, CSS, and Javascript
