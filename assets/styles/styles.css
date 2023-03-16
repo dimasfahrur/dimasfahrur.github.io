@@ -4,19 +4,20 @@
   box-sizing: border-box;
 }
 
+main {
+  margin: 30px;
+}
+
 body {
   font-family: "Josefin Sans", sans-serif;
   color: #1C2120;
   margin: 0;
 } 
 
-main {
-  margin: 25px;
-}
-
 h1 {
   font-size: 45px;
   font-weight: 600;
+  align-items: center;
 } 
 
 h2 {
@@ -34,11 +35,11 @@ header {
 }
 
 nav {
+  background-color: white;
   justify-content: space-around;
   align-items: center;
   position: sticky;
   top: 0;
-  background-color: white;
 }
 
 nav a {
@@ -58,15 +59,70 @@ nav div {
   float: right;
 }
 
+
 #home {
   align-items: center;
-  margin: 50px;
 }
 
 #home article {
-  margin-right: 50px;
+  line-height: 25px;
 }
 
-.flex {
+#about img {
+  border-radius: 25px;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#about div {
+  align-items: flex-start;
+  line-height: 50px;
+}
+
+#tech-stack h1 {
+  text-align: center;
+}
+
+.content {
+  margin: 25px 50px 50px;
+  gap: 10px;
+  padding: 60px;
+}
+
+.flex-container {
   display: flex;
+  gap: 60px;
+}
+
+.contact-list {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.contact-list li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+div svg {
+  width: 96px;
+  background-color: black;
+  border-radius: 180%;
+}
+
+div li{
+  display: inline;
+  list-style-type: none;
+}
+
+.tech-stack{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.tech-stack li{
+  margin: 25px;
 }
